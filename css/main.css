@@ -1,0 +1,58 @@
+html {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+}
+
+body {
+  overflow-x: hidden;
+  color: rgb(29, 29, 31);
+  letter-spacing: -0.05em;
+  background-color: #fff;
+}
+
+p {
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+.gnb .inner,
+.local-nav .inner {
+  display: flex;
+  align-items: center;
+}
+
+.gnb .inner {
+  justify-content: space-between;
+  height: 44px;
+}
+
+.local-nav {
+  border-bottom: 1px solid #ddd;
+}
+
+.local-nav .inner {
+  height: 52px;
+}
+
+.local-nav .product-name {
+  flex: none;
+  margin-right: auto;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.local-nav a:not(.product-name) {
+  margin-left: 2em;
+  font-size: .8rem;
+}
+
