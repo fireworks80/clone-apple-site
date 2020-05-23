@@ -31,6 +31,11 @@ a {
   align-items: center;
 }
 
+.gnb,
+.local-nav {
+  padding: 0 1rem;
+}
+
 .gnb .inner {
   justify-content: space-between;
   height: 44px;
@@ -56,3 +61,84 @@ a {
   font-size: .8rem;
 }
 
+.scroll-section {
+  outline: 1px dashed;
+  padding-top: 50vh;
+}
+
+#scroll-section-0 h1 {
+  /* 14 * 4 */
+  font-size: 4rem; 
+  text-align: center;
+}
+
+.main-message {
+  outline: 1px dashed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3em;
+  font-size: 2.5rem;
+}
+
+.main-message p {
+  line-height: 1.2;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main-message small {
+  display: block;
+  margin-bottom: .5em;
+  font-size: 1.2rem;
+}
+
+#scroll-section-2 .main-message {
+  font-size: 3.5rem;
+}
+
+.description {
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.description strong {
+  float: left;
+  margin-right: .2em;
+  font-size: 3rem;
+  color: rgb(29, 29, 31);
+}
+
+.desc-message {
+  width: 50%;
+  font-weight: bold;
+}
+
+.pin {
+  width: 1px;
+  height: 100px;
+  background-color: rgb(29, 29, 31);
+}
+
+.mid-message {
+  padding: 0 1rem;
+  font-size: 2rem;
+  color: #888;
+}
+
+.mid-message strong {
+  color: rgb(29, 29, 31);
+}
+
+.canvas-caption {
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
